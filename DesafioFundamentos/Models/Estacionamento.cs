@@ -66,7 +66,7 @@ namespace DesafioFundamentos.Models
                 foreach (string estacionados in veiculos) { 
                     Console.WriteLine($"O Atualmente na vaga {contador+1} está o veiculo de placa {estacionados}");
                     contador++;
-                }
+                }// o contador+1 é por que em um estacionamento real não existe vaga de numero 0
                 
             }
             else
